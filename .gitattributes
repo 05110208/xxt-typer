@@ -1,0 +1,11 @@
+# 默认 LF；批处理必须 CRLF + 纯 ASCII，否则 cmd.exe 解析会失败
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.ico binary
+*.zip binary
+*.exe binary

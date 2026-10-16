@@ -1,0 +1,9 @@
+name: xxt-typer
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - tk
+  - pip
+  - pip:
+      - pynput>=1.7.6

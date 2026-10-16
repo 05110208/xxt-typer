@@ -1,0 +1,2 @@
+# xxt_typer 运行依赖（安装在独立的 conda 环境里，见 install.bat）
+pynput>=1.7.6
